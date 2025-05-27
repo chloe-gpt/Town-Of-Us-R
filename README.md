@@ -43,6 +43,7 @@ Join our [Discord](https://discord.gg/ugyc4EVUYZ) if you have any problems or wa
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 16.0.2s & 16.0.2e | v5.3.1 | [Download](https://github.com/eDonnes124/Town-Of-Us/releases/download/v5.3.1/ToU.v5.3.1.zip) |
 | 16.0.2s & 16.0.2e | v5.3.0 | [Download](https://github.com/eDonnes124/Town-Of-Us/releases/download/v5.3.0/ToU.v5.3.0.zip) |
 | 2024.10.29s & 2024.10.29e | v5.2.1 | [Download](https://github.com/eDonnes124/Town-Of-Us/releases/download/v5.2.1/ToU.v5.2.1.zip) |
 | 2024.10.29s & 2024.10.29e | v5.2.0 | [Download](https://github.com/eDonnes124/Town-Of-Us/releases/download/v5.2.0/ToU.v5.2.0.zip) |
@@ -112,6 +113,12 @@ Join our [Discord](https://discord.gg/ugyc4EVUYZ) if you have any problems or wa
 
 <details>
   <summary> Changelog </summary>
+  <details>
+  <summary> v5.3.1 </summary>
+  <ul> <li>Reordered the colours again to fix Better Crew Link issues</li> </ul>
+  <ul> <li>Fixed an issue of Radar Arrow sometimes not appearing</li> </ul>
+  <ul> <li>Fixed some chat command issues, courtesy of @chloe-gpt</li> </ul>
+  </details>
   <details>
   <summary> v5.3.0 </summary>
   <ul> <li>Compatibility with the new Among Us version v16.0.2</li> </ul>

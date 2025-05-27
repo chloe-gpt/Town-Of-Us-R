@@ -13,7 +13,6 @@ namespace TownOfUs.Patches
     [HarmonyPatch(typeof(IntroCutscene._CoBegin_d__35), nameof(IntroCutscene._CoBegin_d__35.MoveNext))]
     public static class Start
     {
-        public static Sprite Sprite => TownOfUs.Arrow;
         public static void Postfix(IntroCutscene._CoBegin_d__35 __instance)
         {
             HudUpdate.Zooming = false;
@@ -320,21 +319,6 @@ namespace TownOfUs.Patches
                 var sc = Role.GetRole<SoulCollector>(PlayerControl.LocalPlayer);
                 sc.LastReaped = DateTime.UtcNow;
                 sc.LastReaped = sc.LastReaped.AddSeconds(CustomGameOptions.InitialCooldowns - CustomGameOptions.ReapCd);
-            }
-
-            if (PlayerControl.LocalPlayer.Is(ModifierEnum.Radar))
-            {
-                var radar = Modifier.GetModifier<Radar>(PlayerControl.LocalPlayer);
-                var gameObj = new GameObject();
-                var arrow = gameObj.AddComponent<ArrowBehaviour>();
-                gameObj.transform.parent = PlayerControl.LocalPlayer.gameObject.transform;
-                var renderer = gameObj.AddComponent<SpriteRenderer>();
-                renderer.sprite = Sprite;
-                renderer.color = Colors.Radar;
-                arrow.image = renderer;
-                gameObj.layer = 5;
-                arrow.target = PlayerControl.LocalPlayer.transform.position;
-                radar.RadarArrow.Add(arrow);
             }
         }
     }

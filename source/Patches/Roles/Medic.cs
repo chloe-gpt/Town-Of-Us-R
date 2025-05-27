@@ -20,40 +20,40 @@ namespace TownOfUs.Roles
             AddToRoleHistory(RoleType);
             ShieldedPlayer = null;
 
-            LightDarkColors.Add(10, "darker"); // Red
-            LightDarkColors.Add(20, "darker"); // Blue
-            LightDarkColors.Add(17, "darker"); // Green
+            LightDarkColors.Add(0, "darker"); // Red
+            LightDarkColors.Add(15, "darker"); // Blue
+            LightDarkColors.Add(22, "darker"); // Green
             LightDarkColors.Add(6, "lighter"); // Pink
-            LightDarkColors.Add(12, "lighter"); // Orange
+            LightDarkColors.Add(2, "lighter"); // Orange
             LightDarkColors.Add(31, "lighter"); // Yellow
             LightDarkColors.Add(25, "darker"); // Black
-            LightDarkColors.Add(3, "lighter"); // White
-            LightDarkColors.Add(1, "darker"); // Purple
-            LightDarkColors.Add(19, "darker"); // Brown
-            LightDarkColors.Add(23, "lighter"); // Cyan
+            LightDarkColors.Add(13, "lighter"); // White
+            LightDarkColors.Add(11, "darker"); // Purple
+            LightDarkColors.Add(24, "darker"); // Brown
+            LightDarkColors.Add(18, "lighter"); // Cyan
             LightDarkColors.Add(33, "lighter"); // Lime
             LightDarkColors.Add(9, "darker"); // Maroon
             LightDarkColors.Add(30, "lighter"); // Rose
             LightDarkColors.Add(29, "lighter"); // Banana
-            LightDarkColors.Add(4, "darker"); // Grey
+            LightDarkColors.Add(14, "darker"); // Grey
             LightDarkColors.Add(27, "darker"); // Tan
             LightDarkColors.Add(7, "lighter"); // Coral
             LightDarkColors.Add(8, "darker"); // Melon
             LightDarkColors.Add(26, "darker"); // Cocoa
-            LightDarkColors.Add(21, "lighter"); // Sky Blue
+            LightDarkColors.Add(16, "lighter"); // Sky Blue
             LightDarkColors.Add(28, "lighter"); // Biege
             LightDarkColors.Add(5, "darker"); // Magenta
-            LightDarkColors.Add(24, "lighter"); // Aqua
-            LightDarkColors.Add(2, "lighter"); // Lilac
-            LightDarkColors.Add(18, "darker"); // Olive
-            LightDarkColors.Add(22, "lighter"); // Azure
-            LightDarkColors.Add(0, "darker"); // Plum
-            LightDarkColors.Add(16, "darker"); // Jungle
+            LightDarkColors.Add(19, "lighter"); // Aqua
+            LightDarkColors.Add(12, "lighter"); // Lilac
+            LightDarkColors.Add(23, "darker"); // Olive
+            LightDarkColors.Add(17, "lighter"); // Azure
+            LightDarkColors.Add(10, "darker"); // Plum
+            LightDarkColors.Add(21, "darker"); // Jungle
             LightDarkColors.Add(32, "lighter"); // Mint
-            LightDarkColors.Add(14, "lighter"); // Lemon
-            LightDarkColors.Add(15, "darker"); // Macau
-            LightDarkColors.Add(11, "darker"); // Tawny
-            LightDarkColors.Add(13, "lighter"); // Gold
+            LightDarkColors.Add(4, "lighter"); // Lemon
+            LightDarkColors.Add(20, "darker"); // Macau
+            LightDarkColors.Add(1, "darker"); // Tawny
+            LightDarkColors.Add(3, "lighter"); // Gold
             LightDarkColors.Add(34, "lighter"); // Rainbow
         }
         public float StartTimer()
